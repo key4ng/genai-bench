@@ -38,7 +38,7 @@ nav:
     - Generate Plot: user-guide/generate-plot.md
     - Upload Benchmark Results: user-guide/upload-benchmark-result.md
   - Examples:
-    - Plot Config Examples: examples/ plot-config-examples.md
+    - Plot Config Examples: examples/plot_configs/plot-config-examples.md
   - Development:
     - Contributing: development/contributing.md
 

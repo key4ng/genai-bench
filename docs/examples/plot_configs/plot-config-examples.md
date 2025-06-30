@@ -36,14 +36,14 @@ genai-bench plot --experiments-folder /path/to/experiments \
 
 ## Available Configurations
 
-### custom_2x2.json
+### [custom_2x2.json](custom_2x2.json)
 A simple 2x2 grid layout focusing on key performance metrics:
 - Throughput vs Mean Latency
 - RPS vs P99 Latency
 - Concurrency vs TTFT
 - Error Rate Analysis
 
-### performance_focused.json
+### [performance_focused.json](performance_focused.json)
 A comprehensive 2x3 grid for detailed performance analysis:
 - Token generation speed analysis
 - Time to first token trends
@@ -52,14 +52,14 @@ A comprehensive 2x3 grid for detailed performance analysis:
 - Request success rates
 - Throughput scaling
 
-### multi_line_latency.json
+### [multi_line_latency.json](multi_line_latency.json)
 Demonstrates multi-line plotting capabilities with a 2x2 layout:
 - **Latency Percentiles Comparison**: Multiple latency percentiles (mean, P90, P99) on one plot
 - **TTFT Performance Analysis**: Mean and P95 TTFT comparison
 - **Token Processing Speed**: Output speed vs input throughput comparison
 - **Request Success Metrics**: Single-line error rate plot
 
-### comprehensive_multi_line.json
+### [comprehensive_multi_line.json](comprehensive_multi_line.json)
 Advanced multi-line example with 1x3 layout showcasing complex comparisons:
 - **E2E Latency Distribution**: All percentiles (P25, P50, P75, P90, P99) with custom colors
 - **Throughput Components**: Input, output, and total throughput comparison
